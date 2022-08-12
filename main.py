@@ -36,4 +36,4 @@ if __name__ == '__main__':
 
     ## Use top hashtags feature
 
-    print("\n ### END OF CODE ### \n")
+    print("\n ### END OF CODE ###")
