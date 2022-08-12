@@ -15,7 +15,13 @@ if __name__ == '__main__':
 
     ## Use top tweets feature
     ## Use top users feature
-    ## Use top days feature
+    ## Use top days by tweets feature
+    top_weekdays_by_tweets = features.top_weekdays_by_tweets(dataset, n=7)
+    print("Top weekdays by tweets:")
+    for idx, day in enumerate(top_weekdays_by_tweets):
+        print(f"{idx} - Day: {day[0]}, Tweets: {day[1]}")
+    print("\n")
+
     ## Use top hashtags feature
 
     print("\n ### END OF CODE ### \n")
