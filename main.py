@@ -1,6 +1,5 @@
 # Python modules
 import json
-from tkinter.tix import TCL_WINDOW_EVENTS
 
 # PIP modules
 
