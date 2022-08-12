@@ -1,6 +1,5 @@
 # Python modules
 import json
-from tkinter.tix import TCL_WINDOW_EVENTS
 
 # PIP modules
 
@@ -37,4 +36,4 @@ if __name__ == '__main__':
 
     ## Use top hashtags feature
 
-    print("\n ### END OF CODE ### \n")
+    print("\n ### END OF CODE ###")
